@@ -3,6 +3,7 @@ using Sandbox.UI.Construct;
 using SWB.Player;
 using SWB.Shared;
 using System;
+using static Sandbox.Component;
 
 namespace SWB.HUD;
 
@@ -23,7 +24,7 @@ public class Chatbox : Panel
 
 		textEntry = Add.TextEntry();
 		textEntry.AddClass( "entry" );
-		textEntry.Placeholder = "Type here";
+		textEntry.Placeholder = "Type here [USE RIGHT CLICK (attack2) TO CLOSE THE CHAT!!]";
 		textEntry.AddEventListener( "onsubmit", () => Submit() );
 		textEntry.AcceptsFocus = true;
 		textEntry.AllowEmojiReplace = true;
@@ -90,6 +91,8 @@ public class Chatbox : Panel
 	{
 		if ( Input.Pressed( InputButtonHelper.Chat ) )
 			Open();
+		if ( Input.Pressed( InputButtonHelper.SecondaryAttack ) ) // now we can close the chat :3
+			Close();
 	}
 
 	[ConCmd( "say", Help = "Send a chat message" )]

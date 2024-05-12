@@ -138,6 +138,10 @@ public partial class Weapon : Component, IInventoryItem
 
 				TimeSincePrimaryShoot = 0;
 				Shoot( Primary, true );
+				// Leaderboard
+				Sandbox.Services.Stats.Increment( "fire", 1 );
+				var leader = Sandbox.Services.Leaderboards.Get( "time" );
+				leader.Refresh();
 			}
 			else if ( CanSecondaryShoot() && !shouldTuck )
 			{
