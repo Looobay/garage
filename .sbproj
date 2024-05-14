@@ -34,7 +34,6 @@
         {
           "Name": "Forward",
           "KeyboardCode": "W",
-          "GamepadCode": "None",
           "GroupName": "Movement"
         },
         {

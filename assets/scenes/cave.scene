@@ -95,7 +95,10 @@
         },
         {
           "__type": "Radio",
-          "__guid": "5a81fc5e-6179-4cf2-a7e5-69d745bfbfbe"
+          "__guid": "5a81fc5e-6179-4cf2-a7e5-69d745bfbfbe",
+          "Pitch": 1,
+          "radioSound": "sounds/lby/music/portal_radio_uncompressed.sound",
+          "Volume": 2.5
         },
         {
           "__type": "Sandbox.ModelCollider",
@@ -116,15 +119,18 @@
       "NetworkInterpolation": true,
       "Components": [
         {
-          "__type": "BruitInsup",
-          "__guid": "95620038-4fcf-4c0b-98ea-6781a5089d18"
-        },
-        {
           "__type": "Sandbox.Prop",
           "__guid": "00faf843-fadf-498e-9e8c-0eefae23d696",
           "BodyGroups": 18446744073709551615,
           "Health": 0,
           "IsStatic": true
+        },
+        {
+          "__type": "Radio",
+          "__guid": "cfc06328-5fa1-4904-a2bf-e0ef4f6398ce",
+          "Pitch": 1,
+          "radioSound": "sounds/lby/sounds/fluorescent_light.sound",
+          "Volume": 1
         }
       ]
     },
@@ -138,15 +144,18 @@
       "NetworkInterpolation": true,
       "Components": [
         {
-          "__type": "BruitInsup",
-          "__guid": "9252d04d-f0ee-4507-8934-89836bc0a5d3"
-        },
-        {
           "__type": "Sandbox.Prop",
           "__guid": "3e2bfd05-50a5-497d-85bb-ba86187109b0",
           "BodyGroups": 18446744073709551615,
           "Health": 0,
           "IsStatic": true
+        },
+        {
+          "__type": "Radio",
+          "__guid": "ceb5f672-0684-44b6-9ccc-414fba375e66",
+          "Pitch": 1,
+          "radioSound": "sounds/lby/sounds/fluorescent_light.sound",
+          "Volume": 1
         }
       ]
     },
@@ -160,15 +169,18 @@
       "NetworkInterpolation": true,
       "Components": [
         {
-          "__type": "BruitInsup",
-          "__guid": "2291669b-cc4f-4924-a523-e9f8176858fb"
-        },
-        {
           "__type": "Sandbox.Prop",
           "__guid": "0e97d8e7-da6a-4d43-ac79-d3a52914c790",
           "BodyGroups": 18446744073709551615,
           "Health": 0,
           "IsStatic": true
+        },
+        {
+          "__type": "Radio",
+          "__guid": "086f15cb-5dbc-4eb1-8df4-24b557544ce5",
+          "Pitch": 1,
+          "radioSound": "sounds/lby/sounds/fluorescent_light.sound",
+          "Volume": 1
         }
       ]
     },
@@ -1328,7 +1340,7 @@
   },
   "Title": "cave",
   "Description": "",
-  "LastSaved": "2024-05-12T17:52:21.4020583\u002B02:00",
+  "LastSaved": "2024-05-14T20:44:16.9261845\u002B02:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": [
