@@ -10,6 +10,6 @@ You can [play Garage on S&Box](https://asset.party/looobsoft/garage).
 ## Cool feature
 * Now you have only 2 weapons in-game (YAY!!!!)
 
-## What change with the original version ?
+## What change from the original version ?
 There are no radical changes but I fixed a few problems:
 * You can now leave the chat box when you use Right Click (secondary attack)
